@@ -38,7 +38,6 @@ export default {
     align-items: center;
     width: 7rem;
     height: 100%;
-    border-right: 1px solid #DFDFDF;
 
     > img {
       width: 3rem;

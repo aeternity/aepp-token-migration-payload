@@ -1,5 +1,4 @@
-import '@aeternity/aepp-components/dist/ae-button/ae-button.css'
-import '@aeternity/aepp-components/dist/ae-icon/ae-icon.css'
+import '@aeternity/aepp-components/dist/ae-toolbar/ae-toolbar.css'
 
 import './sections/index.js'
 
