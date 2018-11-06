@@ -1,0 +1,60 @@
+{
+  "name": "aepp-token-migration-payload",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@aeternity/aepp-components": "github:aeternity/aepp-components#enhance/ae-input-data-change",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.0",
+    "@vue/cli-service": "^3.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "vue-template-compiler": "^2.5.17",
+    "@babel/core": "^7.0.0",
+    "@vue/eslint-config-standard": "^3.0.1",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^8.0.2",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.5.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-svg-loader": "^0.10.0",
+    "webpack": "^4.17.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
