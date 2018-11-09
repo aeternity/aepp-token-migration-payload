@@ -1,4 +1,6 @@
 import '@aeternity/aepp-components/dist/ae-toolbar/ae-toolbar.css'
+import '@aeternity/aepp-components/dist/ae-icon/ae-icon.css'
+import '@aeternity/aepp-components/dist/ae-address/ae-address.css'
 
 import './sections/index.js'
 

@@ -27,6 +27,10 @@ export default {
   border-radius: 4px;
   padding: 0.5rem 1rem 0 1rem;
   background: #4E5A66;
+  margin-top: 30px;
+  margin-bottom: -95px;
+  margin-right: 40px;
+  margin-left: 40px;
 
   > label {
     color: #EDF3F7;

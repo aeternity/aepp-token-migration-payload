@@ -81,7 +81,6 @@ export default {
   background: $color-white;
   box-shadow: 0 0 16px $color-shadow-alpha-15;
   height: 5.125rem;
-  margin-bottom: 3rem;
   font-size: 1rem;
   font-weight: bold;
 
