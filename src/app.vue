@@ -111,6 +111,7 @@ import Web3 from 'web3'
 import AeAddress from '@aeternity/aepp-components/dist/ae-address'
 import AeIcon from '@aeternity/aepp-components/dist/ae-icon'
 import AppUrl from './components/app-url.vue'
+import bs58check from 'bs58check'
 
 const $web3 = new Web3()
 
@@ -152,9 +153,15 @@ export default {
     },
     aeAddress: function () {
       try {
-        return $web3.utils.hexToString(
+        let addr = $web3.utils.hexToString(
           $web3.eth.abi.decodeParameter('bytes', this.computedPayload.substr(136))
         )
+        let match = addr.match(/^ak_([123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]*)$/)
+        if(!match) {
+          throw new Error("malformed aeternity address")
+        }
+        bs58check.decode(match[1])
+        return addr
       } catch (e) {
         return false
       }
