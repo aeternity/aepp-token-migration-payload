@@ -1,6 +1,6 @@
 <template>
   <div class="app-url">
-    <label for="url">Payload</label>
+    <label for="url">Dataload</label>
     <textarea
       id="url"
       placeholder="Paste payload here..."
