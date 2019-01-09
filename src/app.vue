@@ -5,23 +5,23 @@
       <app-panel shadow>
         <app-panel padding primary>
           <template slot="header">
-            Check the payload
+            View the dataload
           </template>
           <div class="text-div-top">
-            <h1>Payload</h1>
+            <h1>Dataload</h1>
             <p>
-              Your migration data is stored in a payload, which
-              functions as a receipt. <br/> Enter yours below, to
-              confirm that the information contained in the <br/> payload is correct.
+              The transaction data of the migration is stored in a dataload. <br />
+              Enter your dataload (if you saved it during transaction) to view <br />
+              the details of your transaction.
             </p>
             <app-url v-model="payload"/>
           </div>
         </app-panel>
         <app-panel padding primary>
           <div class="text-div-bottom">
-            <h1>Payload Information</h1>
+            <h1>Dataload Information</h1>
             <p>
-              The payload above contains the following information.<br/>
+              The dataload above contains the following information.<br/>
               Please check if the information below is correct.
             </p>
           </div>
